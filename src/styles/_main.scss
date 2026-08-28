@@ -1,0 +1,59 @@
+@use "variables" as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+html {
+  background: $color-bg;
+}
+
+body {
+  min-height: 100vh;
+  font-family: $font-ui;
+  font-size: $text-sm;
+  color: $color-text;
+  background:
+    radial-gradient(circle at 10% 0%, rgba($color-primary, .05), transparent 24rem),
+    $color-bg;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h2{
+  font-size: $text-3xl;
+
+}
+
+/* .app-root {
+  min-height: 100vh;
+}
+
+.pixel {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+} */

@@ -1,0 +1,10 @@
+ @use "../../styles/mixins" as *;
+ @use "../../styles/variables" as *;
+
+ .nav{
+    @include flex(space-between, center);
+    height: 64px;
+    background: $color-surface;
+    border-bottom: 1px solid $color-border;
+    padding: 0 $space-6;
+ }

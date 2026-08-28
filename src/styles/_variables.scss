@@ -1,0 +1,78 @@
+$font-display: "Press Start 2P", monospace;
+$font-ui:
+  "Nunito",
+  system-ui,
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  sans-serif;
+
+$color-bg: #fff8ef;
+$color-surface: #fffdf9;
+$color-surface-soft: #fff2e9;
+$color-surface-pink: #ffe3df;
+
+$color-primary: #ef626d;
+$color-primary-hover: #df515d;
+$color-primary-soft: #ffd3cf;
+
+$color-text: #4a2a21;
+$color-text-secondary: #ffffff;
+$color-text-soft: #9b7567;
+
+$color-border: #edcdbb;
+$color-border-strong: #e9b49d;
+
+$color-sage: #8aa06a;
+$color-sage-soft: #dce5c9;
+
+$color-gold: #e7b15c;
+
+$color-cook-bg: #201b19;
+$color-cook-panel: #2f2926;
+$color-cook-panel-soft: #3b312d;
+$color-cook-text: #fff3e5;
+$color-cook-muted: #cbb6aa;
+
+$radius-sm: 10px;
+$radius-md: 14px;
+$radius-lg: 20px;
+$radius-xl: 28px;
+$radius-pill: 999px;
+
+$space-1: 4px;
+$space-2: 8px;
+$space-3: 12px;
+$space-4: 16px;
+$space-5: 20px;
+$space-6: 24px;
+$space-8: 32px;
+$space-10: 40px;
+$space-12: 48px;
+
+$text-xs: 12px;
+$text-sm: 14px;
+$text-md: 16px;
+$text-lg: 18px;
+$text-xl: 20px;
+$text-2xl: 24px;
+$text-3xl: 28px;
+$text-4xl: 32px;
+$text-5xl: 36px;
+$text-6xl: 40px;
+$text-7xl: 48px;
+$text-8xl: 56px;
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+
+$shadow-sm: 0 4px 14px rgba(84, 50, 37, 0.08);
+$shadow-md: 0 10px 30px rgba(84, 50, 37, 0.12);
+$shadow-pixel: 4px 4px 0 rgba(84, 50, 37, 0.14);
+
+$sidebar-width: 290px;
+$page-max: 1536px;

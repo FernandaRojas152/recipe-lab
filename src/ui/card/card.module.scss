@@ -1,0 +1,10 @@
+@use "../../styles/mixins" as *;
+@use "../../styles/variables" as *;
+
+.container{
+    background: $color-surface;
+    border: 1px solid $color-border;
+    border-radius: $radius-lg;
+    box-shadow: $shadow-sm;
+    overflow: hidden;
+}
